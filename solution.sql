@@ -1,3 +1,8 @@
+-- DROP TABLES IF THEY ALREADY EXIST TO PREVENT CONFLICTS
+DROP TABLE IF EXISTS Bookings;
+DROP TABLE IF EXISTS Matches;
+DROP TABLE IF EXISTS Users;
+
 -- =========================================================================
 -- 1. CREATE USERS TABLE
 -- =========================================================================
