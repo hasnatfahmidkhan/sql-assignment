@@ -187,6 +187,12 @@ WHERE
 -- =========================================================================
 -- Query 2: Search for all users whose full names start with 'Tanvir' or contain the phrase 'Haque' (case-insensitive).
 -- =========================================================================
-select user_id, full_name, email from users
-where full_name ilike 'Tanvir%' 
-or full_name ilike '%Haque%';
+SELECT
+  user_id,
+  full_name,
+  email
+FROM
+  users
+WHERE
+  full_name ILIKE 'Tanvir%'
+  OR full_name ILIKE '%Haque%';
